@@ -1,0 +1,30 @@
+/* Desktop / Normal View */
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;       
+  padding: 10px;
+}
+
+.flex-nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.flex-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  .flex-nav {
+    background: #0d6efd;   
+  }
+
+  .flex-nav a {
+    color: #fff;          
+  }
+}

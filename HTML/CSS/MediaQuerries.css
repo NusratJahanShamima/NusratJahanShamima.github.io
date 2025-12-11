@@ -1,0 +1,9 @@
+body {
+    background-color: yellowgreen;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        background-color: lightblue;
+    }
+}

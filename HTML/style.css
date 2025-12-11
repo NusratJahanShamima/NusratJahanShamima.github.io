@@ -1,0 +1,79 @@
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carousel-item img {
+  height: 100vh;
+  width:auto;
+  object-fit: cover;
+
+}
+.clearfix img {
+  width: 80vh;
+  height: auto;
+}
+
+.accordion-button {
+  color: #0d6efd !important;
+  font-weight: bold;
+  font-style: italic; 
+  font-size:medium;
+}
+
+.section-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #333;
+  border-left: 4px solid #0d6efd;
+  padding-left: 10px;
+}
+.cgpa-box {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  max-width: 500px;        
+}
+
+.cgpa-box .label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.cgpa-box .label span {
+  float: right;
+  color: #666;
+  font-weight: 500;
+}
+
+.custom-progress {
+  height: 12px;
+  border-radius: 20px;
+  background-color: #e9ecef;
+  width: 80%;            
+}
+
+
+.custom-progress .progress-bar {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #007bff, #69afff);
+}
+
+
+.bar-blue {   
+  background: linear-gradient(90deg, #17a2b8, #6ed3e3)!important;
+}
+
+.bar-green {  
+  background: linear-gradient(90deg, #28a745, #7be59b) !important;
+}
+
+.bar-orange { 
+  background: linear-gradient(90deg, #ffc107, #ffe27a) !important;
+}
+
