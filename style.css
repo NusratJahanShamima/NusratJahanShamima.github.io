@@ -17,6 +17,10 @@
   display: block;
 }
 
+.navbar {
+  background: linear-gradient(135deg, #eef4ff, #dbe9ff);
+}
+
 
 .accordion-button {
   color: #0d6efd !important;
