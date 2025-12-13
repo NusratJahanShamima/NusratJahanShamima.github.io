@@ -11,9 +11,12 @@
 
 }
 .clearfix img {
-  width: 80vh;
+  width: 100%;
+  max-width: 480px;
   height: auto;
+  display: block;
 }
+
 
 .accordion-button {
   color: #0d6efd !important;
